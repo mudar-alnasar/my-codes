@@ -1,0 +1,8 @@
+if player_pos[0] <= 0:
+    	player_pos[0] = 1
+    elif player_pos[0] >= Width - player_size[0] :
+    	player_pos[0] = Width - player_size[0]
+    elif player_pos[1] <= 0:
+    	player_pos[1]= 1 
+    elif player_pos[1] >= Height:
+    	player_pos[1] = Height - player_size[1]
